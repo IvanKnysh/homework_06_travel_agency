@@ -51,7 +51,12 @@
 /* Header - end */
 
 /* Filter */
+.filter {
+	background-color: var(--light-gray);
+}
+
 .filter .content {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -62,8 +67,8 @@
 	border-radius: 3px;
 	box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.08),
 		0 2px 20px 0 rgba(254, 226, 12, 0.06);
-	margin-top: -40px;
 	padding: 12px;
+	bottom: 40px;
 }
 
 .filter .content .label-area {
@@ -121,3 +126,47 @@
 	background-color: var(--blue-hover);
 }
 /* Filter - end */
+
+/* Selections */
+.selections {
+	padding: 40px 0 80px;
+	background-color: var(--light-gray);
+}
+
+.selections h2 {
+	font-weight: 700;
+	font-size: 1.125rem;
+	margin-bottom: 20px;
+}
+
+.selections .flx {
+	display: flex;
+	gap: 0 20px;
+}
+
+.selections .flx .block {
+	width: calc(100% / 3);
+	background-color: var(--white);
+	border-radius: 6px;
+	overflow: hidden;
+	transition: box-shadow 0.3s;
+}
+
+.block:hover {
+	box-shadow: 0 20px 24px 0 rgba(0, 0, 0, 0.04);
+}
+
+.selections .flx .block img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.selections .flx .block a {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: var(--color-text-primary);
+	font-weight: 500;
+}
+/* Selections - end */
