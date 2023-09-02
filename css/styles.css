@@ -281,15 +281,16 @@
 	transition: box-shadow 0.3s;
 }
 
-.popular-countries .flx .block:hover {
-	box-shadow: 0 20px 24px 0 rgba(0, 0, 0, 0.04);
-}
-
 .popular-countries .flx .block img {
 	display: block;
 	width: 100%;
 	height: 300px;
 	object-fit: cover;
+	transition: transform 0.5s;
+}
+
+.popular-countries .flx .block:hover img {
+	transform: scale(1.1);
 }
 
 .popular-countries .flx .block .pl {
