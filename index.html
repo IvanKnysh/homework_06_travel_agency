@@ -9,6 +9,7 @@
 		<link rel="shortcut icon" href="./images/favicon.webp" />
 	</head>
 	<body>
+		<!-- Header -->
 		<div class="header">
 			<div class="container">
 				<div class="flx">
@@ -35,6 +36,63 @@
 						</a>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<!-- Filter -->
+		<div class="filter">
+			<div class="container">
+				<form class="content" action="https://fom.in.ua/echo" method="post">
+					<div class="label-area">
+						<label>
+							<span>Куди</span>
+							<select name="where">
+								<option value="Туреччина">Туреччина</option>
+								<option value="Єгипет">Єгипет</option>
+								<option value="Болгарія">Болгарія</option>
+								<option value="Греція">Греція</option>
+								<option value="Чорногорія">Чорногорія</option>
+								<option value="Іспанія">Іспанія</option>
+								<option value="Італія">Італія</option>
+								<option value="Кіпр">Кіпр</option>
+							</select>
+						</label>
+						<label>
+							<span>Звідки</span>
+							<select name="From">
+								<option value="з Києва">з Києва</option>
+								<option value="з Запоріжжя">з Запоріжжя</option>
+								<option value="з Житомира">з Житомира</option>
+								<option value="з Вінниці">з Вінниці</option>
+								<option value="з Дніпра">з Дніпра</option>
+								<option value="з Львова">з Львова</option>
+							</select>
+						</label>
+						<label>
+							<span>Тривалість</span>
+							<select name="duration">
+								<option value="1 - 3 ночі">1 - 3 ночі</option>
+								<option value="2 - 4 ночі">2 - 4 ночі</option>
+								<option value="3 - 5 ночей">3 - 5 ночей</option>
+								<option value="4 - 6 ночей">4 - 6 ночей</option>
+								<option value="5 - 7 ночей">5 - 7 ночей</option>
+								<option value="6 - 8 ночей">6 - 8 ночей</option>
+								<option value="7 - 9 ночей">7 - 9 ночей</option>
+								<option value="8 - 10 ночей">8 - 10 ночей</option>
+							</select>
+						</label>
+						<label>
+							<span>Початок туру</span>
+							<input type="date" name="date">
+						</label>
+						<label>
+							<span>Туристи</span>
+							<input type="number" min="1" max="10" name="tourists" value="1">
+						</label>
+					</div>
+
+					<button>Знайти</button>
+				</а>
 			</div>
 		</div>
 	</body>
