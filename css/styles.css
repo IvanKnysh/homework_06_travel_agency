@@ -130,7 +130,7 @@
 
 /* Selections */
 .selections {
-	padding: 40px 0 80px;
+	padding: 80px 0 0;
 }
 
 .selections h2 {
@@ -173,7 +173,7 @@
 
 /* Hot tours */
 .hot-tours {
-	padding: 40px 0 80px;
+	padding: 80px 0 0;
 }
 
 .hot-tours h2 {
@@ -253,7 +253,7 @@
 
 /* Popular countries */
 .popular-countries {
-	padding: 40px 0 80px;
+	padding: 80px 0 80px;
 }
 
 .popular-countries h2 {
