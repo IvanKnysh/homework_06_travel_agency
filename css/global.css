@@ -10,6 +10,8 @@
 	--white: #ffffff;
 	--blue: #0d85ff;
 	--blue-hover: #0072ed;
+	--shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.08),
+		0 2px 20px 0 rgba(254, 226, 12, 0.06);
 }
 
 html {

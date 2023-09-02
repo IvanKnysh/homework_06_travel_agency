@@ -13,8 +13,7 @@ body {
 	background-color: var(--white);
 	padding: 20px;
 	border-radius: 12px;
-	box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.08),
-		0 2px 20px 0 rgba(254, 226, 12, 0.06);
+	box-shadow: var(--shadow);
 }
 
 .auth img {
