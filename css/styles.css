@@ -52,7 +52,8 @@
 
 /* Filter */
 .filter {
-	background-color: var(--light-gray);
+	position: sticky;
+	top: 0;
 }
 
 .filter .content {
@@ -130,7 +131,6 @@
 /* Selections */
 .selections {
 	padding: 40px 0 80px;
-	background-color: var(--light-gray);
 }
 
 .selections h2 {
@@ -174,7 +174,6 @@
 /* Hot tours */
 .hot-tours {
 	padding: 40px 0 80px;
-	background-color: var(--light-gray);
 }
 
 .hot-tours h2 {
@@ -255,7 +254,6 @@
 /* Popular countries */
 .popular-countries {
 	padding: 40px 0 80px;
-	background-color: var(--light-gray);
 }
 
 .popular-countries h2 {
