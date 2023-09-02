@@ -11,14 +11,18 @@
 	align-items: center;
 }
 
-.header .flx .nav-area {
+.header .flx ul.nav-area {
 	display: flex;
 	align-items: center;
 	gap: 0 30px;
 	margin-left: 50px;
 }
 
-.header .flx .nav-area li a {
+.header .flx ul.nav-area li {
+	position: relative;
+}
+
+.header .flx ul.nav-area li a {
 	text-decoration: none;
 	font-size: 1.25rem;
 	font-weight: 700;
@@ -26,8 +30,28 @@
 	transition: color 0.2s;
 }
 
-.header .flx .nav-area li a:hover {
+.header .flx ul.nav-area li a:hover {
 	color: var(--color-text-primary-hover);
+}
+
+.header .flx ul.nav-area li ul {
+	display: none;
+}
+
+.header .flx ul.nav-area li:hover ul {
+	display: block;
+	position: absolute;
+	left: 0;
+	background-color: var(--yellow);
+	box-shadow: var(--shadow);
+	border-radius: 10px;
+	z-index: 20;
+}
+
+.header .flx ul.nav-area li:hover ul li a {
+	display: block;
+	padding: 5px 10px;
+	font-size: 1rem;
 }
 
 .header .flx .lang {
