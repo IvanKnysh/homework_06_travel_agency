@@ -54,10 +54,10 @@
 .filter {
 	position: sticky;
 	top: 0;
+	z-index: 2;
 }
 
 .filter .content {
-	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -69,7 +69,7 @@
 	box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.08),
 		0 2px 20px 0 rgba(254, 226, 12, 0.06);
 	padding: 12px;
-	bottom: 40px;
+	margin-top: -40px;
 }
 
 .filter .content .label-area {
