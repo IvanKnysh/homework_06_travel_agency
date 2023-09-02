@@ -251,3 +251,95 @@
 	font-size: 0.875rem;
 }
 /* Hot tours - end */
+
+/* Popular countries */
+.popular-countries {
+	padding: 40px 0 80px;
+	background-color: var(--light-gray);
+}
+
+.popular-countries h2 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.popular-countries .flx {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 20px;
+}
+
+.popular-countries .flx .block {
+	position: relative;
+	display: block;
+	width: calc((100% / 2) - 10px);
+	border-radius: 6px;
+	overflow: hidden;
+	text-decoration: none;
+	color: var(--color-text-primary);
+	background-color: var(--white);
+	margin-bottom: 20px;
+	transition: box-shadow 0.3s;
+}
+
+.popular-countries .flx .block:hover {
+	box-shadow: 0 20px 24px 0 rgba(0, 0, 0, 0.04);
+}
+
+.popular-countries .flx .block img {
+	display: block;
+	width: 100%;
+	height: 300px;
+}
+
+.popular-countries .flx .block .pl {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index: 1;
+}
+
+.popular-countries .flx .block .pl .country-name {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.popular-countries .flx .block .pl .price {
+	font-weight: 500;
+}
+/* Popular countries - end */
+
+/* Footer */
+.footer {
+	padding: 40px 0;
+	background-color: var(--gray);
+}
+
+.footer .flx {
+	display: flex;
+	align-items: center;
+}
+
+.footer .flx ul.nav {
+	display: flex;
+	align-items: center;
+	gap: 0 30px;
+	margin-left: auto;
+}
+
+.footer .flx ul.nav li a {
+	text-decoration: none;
+	color: var(--color-text-primary);
+	transition: color 0.2s;
+}
+
+.footer .flx ul.nav li a:hover {
+	color: var(--color-text-primary-hover);
+}
+
+.footer .copyright {
+	text-align: center;
+	margin-top: 50px;
+}
+/* Footer - end */
