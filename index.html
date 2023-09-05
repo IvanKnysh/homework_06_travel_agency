@@ -4,12 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Туризм. Курорти і країни світу на Otpusk.ua</title>
-		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
 		<link rel="shortcut icon" href="./images/favicon.webp" />
 	</head>
 	<body>
-		<!-- Header -->
 		<div class="header" id="top">
 			<div class="container">
 				<div class="flx">
@@ -19,25 +17,12 @@
 							<a href="#selections">Пiдбiрки</a>
 						</li>
 						<li>
-							<a href="#hot-tours">Гарячі тури</a>
-						</li>
-						<li>
-							<a href="#popular-countries">Популярні країни</a>
-						</li>
-						<li>
 							<a href="#">Інфо</a>
 							<ul>
 								<li>
 									<ul>
-										<li>
-											<a href="#">Реклама</a>
-										</li>
-										<li>
-											<a href="#">Туроператорам</a>
-										</li>
-										<li>
-											<a href="#">Про компанію</a>
-										</li>
+										<li><a href="#">Туроператорам</a></li>
+										<li><a href="#hot-tours">Гарячі тури</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -57,80 +42,22 @@
 			</div>
 		</div>
 
-		<!-- Filter -->
-		<div class="filter">
-			<div class="container">
-				<form class="content" action="https://fom.in.ua/echo" method="post">
-					<div class="label-area">
-						<label>
-							<span>Куди</span>
-							<select name="where">
-								<option value="Туреччина">Туреччина</option>
-								<option value="Єгипет">Єгипет</option>
-								<option value="Болгарія">Болгарія</option>
-								<option value="Греція">Греція</option>
-								<option value="Чорногорія">Чорногорія</option>
-								<option value="Іспанія">Іспанія</option>
-								<option value="Італія">Італія</option>
-								<option value="Кіпр">Кіпр</option>
-							</select>
-						</label>
-						<label>
-							<span>Звідки</span>
-							<select name="From">
-								<option value="з Києва">з Києва</option>
-								<option value="з Запоріжжя">з Запоріжжя</option>
-								<option value="з Житомира">з Житомира</option>
-								<option value="з Вінниці">з Вінниці</option>
-								<option value="з Дніпра">з Дніпра</option>
-								<option value="з Львова">з Львова</option>
-							</select>
-						</label>
-						<label>
-							<span>Тривалість</span>
-							<select name="duration">
-								<option value="1 - 3 ночі">1 - 3 ночі</option>
-								<option value="2 - 4 ночі">2 - 4 ночі</option>
-								<option value="3 - 5 ночей">3 - 5 ночей</option>
-								<option value="4 - 6 ночей">4 - 6 ночей</option>
-								<option value="5 - 7 ночей">5 - 7 ночей</option>
-								<option value="6 - 8 ночей">6 - 8 ночей</option>
-								<option value="7 - 9 ночей">7 - 9 ночей</option>
-								<option value="8 - 10 ночей">8 - 10 ночей</option>
-							</select>
-						</label>
-						<label>
-							<span>Початок туру</span>
-							<input type="date" name="date" />
-						</label>
-						<label>
-							<span>Туристи</span>
-							<input type="number" min="1" max="10" name="tourists" value="1" />
-						</label>
-					</div>
-
-					<button>Знайти</button>
-				</form>
-			</div>
-		</div>
-
-		<!-- Selections -->
 		<div class="selections" id="selections">
 			<div class="container">
 				<h2>Пiдбiрки</h2>
 				<div class="flx">
-					<a href="./pages/single-selection.html" class="block">
+					<a href="#" class="block">
 						<img src="./images/selections/inspired.jpeg" alt="inspired" />
 						<p>
 							ТОП-10 готелів Середземномор’я по версії Condé Nast Traveler:
 							Кіпр, Греція та Туреччина
 						</p>
 					</a>
-					<a href="./pages/single-selection.html" class="block">
+					<a href="#" class="block">
 						<img src="./images/selections/kusadasi.jpeg" alt="kusadasi" />
 						<p>ТОП-15 готелів у Кушадасах або подорож у царство птахів</p>
 					</a>
-					<a href="./pages/single-selection.html" class="block">
+					<a href="#" class="block">
 						<img src="./images/selections/montenegro.jpeg" alt="montenegro" />
 						<p>На все готове! ТОП-10 готелів «Все включено» у Чорногорії</p>
 					</a>
@@ -138,116 +65,15 @@
 			</div>
 		</div>
 
-		<!-- Hot tours -->
-		<div class="hot-tours" id="hot-tours">
-			<div class="container">
-				<h2>Гарячі тури</h2>
-				<div class="flx">
-					<a href="#" class="block">
-						<img src="./images/hot-tours/antalia.jpeg" alt="antalia" />
-						<div class="content">
-							<h3>У Середземного моря в Аланії, Туреччина</h3>
-							<div class="info location">Туреччина, Аланія</div>
-							<div class="info duration">10 ночей, 14 вересня</div>
-							<div class="info food">Ультра все включено</div>
-							<div class="price">34 923 грн <span>за 2-х</span></div>
-						</div>
-					</a>
-					<a href="#" class="block">
-						<img src="./images/hot-tours/egypt.jpeg" alt="egypt" />
-						<div class="content">
-							<h3>Єгипет All Inclusive, на першій лінії у Хургаді</h3>
-							<div class="info location">Єгипет, Хургада</div>
-							<div class="info duration">7 ночей, 6 вересня</div>
-							<div class="info food">Все включено</div>
-							<div class="price">33 014 грн <span>за 2-х</span></div>
-						</div>
-					</a>
-					<a href="#" class="block">
-						<img src="./images/hot-tours/bulgary.jpeg" alt="bulgary" />
-						<div class="content">
-							<h3>Апартаменти на Сонячному березі, Болгарія</h3>
-							<div class="info location">Болгарія, Сонячний берег</div>
-							<div class="info duration">8 ночей, 6 вересня</div>
-							<div class="info food">Без харчування</div>
-							<div class="price">14 971 грн <span>за 2-х</span></div>
-						</div>
-					</a>
-					<a href="#" class="block">
-						<img src="./images/hot-tours/greece.jpeg" alt="greece" />
-						<div class="content">
-							<h3>Економічний відпочинок у Греції, Халкідікі</h3>
-							<div class="info location">Греція, Халкідікі – Сітонія</div>
-							<div class="info duration">10 ночей, 14 вересня</div>
-							<div class="info food">Сніданки</div>
-							<div class="price">27 166 грн <span>за 2-х</span></div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Popular countries -->
-		<div class="popular-countries" id="popular-countries">
-			<div class="container">
-				<h2>Популярні країни</h2>
-				<div class="flx">
-					<a href="#" class="block">
-						<img src="./images/popular-countries/turkey.jpeg" alt="turkey" />
-						<div class="pl">
-							<div class="country-name">Туреччина</div>
-							<div class="price">від 18 213 грн</div>
-						</div>
-					</a>
-					<a href="#" class="block">
-						<img src="./images/popular-countries/egypt.jpeg" alt="egypt" />
-						<div class="pl">
-							<div class="country-name">Єгипет</div>
-							<div class="price">від 25 726 грн</div>
-						</div>
-					</a>
-					<a href="#" class="block">
-						<img src="./images/popular-countries/bulgary.jpeg" alt="bulgary" />
-						<div class="pl">
-							<div class="country-name">Болгарія</div>
-							<div class="price">від 9 772 грн</div>
-						</div>
-					</a>
-					<a href="#" class="block">
-						<img src="./images/popular-countries/greece.jpeg" alt="greece" />
-						<div class="pl">
-							<div class="country-name">Греція</div>
-							<div class="price">від 14 531 грн</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- Footer -->
 		<div class="footer">
 			<div class="container">
 				<div class="flx">
-					<div class="logo-area">
-						<img src="./images/logo-yellow.svg" alt="Logo" />
-					</div>
-					<ul class="nav">
-						<li>
-							<a href="#">Реклама</a>
-						</li>
-						<li>
-							<a href="#">Туроператорам</a>
-						</li>
-						<li>
-							<a href="#">Про компанію</a>
-						</li>
-					</ul>
+					<img src="./images/logo-yellow.svg" alt="Logo" />
+					© 2023 р. Всі права захищені.
 				</div>
-				<div class="copyright">© 2023 р. Всі права захищені.</div>
 			</div>
 		</div>
 
-		<!-- Scroll to top -->
 		<a class="scroll-to-top" href="#top">
 			<img src="./images/arrow-icon.png" alt="Arrow" />
 		</a>
